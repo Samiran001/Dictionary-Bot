@@ -29,7 +29,7 @@ public class DicServiceImpl implements DicService {
 		List<String> meaning2 = new ArrayList<>();
 		meaning2.add("bad");
 		meaning2.add("evil");
-		Word w2 = new Word("dishonest", meaning1);
+		Word w2 = new Word("dishonest", meaning2);
 		list.add(w2);
 
 		return list;
